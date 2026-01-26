@@ -12,39 +12,102 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             background-color: #f4f4f4;
         }
         .container {
             background-color: white;
-            padding: 20px;
+            padding: 24px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            max-width: 600px;
-            text-align: center;
+            max-width: 640px;
+            width: 100%;
         }
-        h1 {
+        h1, h2 {
             color: #333;
         }
-        p {
-            color: #666;
+        p, li {
+            color: #555;
+            line-height: 1.6;
+        }
+        ul {
+            padding-left: 20px;
         }
         a {
             color: #007BFF;
             text-decoration: none;
+            font-weight: bold;
         }
         a:hover {
             text-decoration: underline;
+        }
+        .email {
+            margin: 12px 0;
+            font-size: 16px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Account Deletion Request</h1>
-        <p>If you would like to request the deletion of your account and associated data, please email us at:</p>
-        <p><a href="mailto:marketing@gluwa.com">Request to E-mail</a></p>
-        <p>Include your user ID and any relevant information in the email to help us process your request.</p>
-        <p>We are currently in the process of implementing an automated account deletion feature. Thank you for your patience.</p>
+        <h1>Account Deletion Request – Gluwa</h1>
+
+        <p>
+            This page explains how users of the <strong>Gluwa</strong> app can request the deletion of their account
+            and associated personal data.
+        </p>
+
+        <h2>How to Request Account Deletion</h2>
+        <p>
+            To request deletion of your account, please send an email to:
+        </p>
+
+        <p class="email">
+            <a href="mailto:marketing@gluwa.com">marketing@gluwa.com</a>
+        </p>
+
+        <p>
+            Please include the following information in your email:
+        </p>
+        <ul>
+            <li>Your User ID</li>
+            <li>The email address associated with your account (if applicable)</li>
+            <li>Any additional information that may help us identify your account</li>
+        </ul>
+
+        <h2>Data That Will Be Deleted</h2>
+        <ul>
+            <li>Account information (such as User ID and profile data)</li>
+            <li>Application usage data associated with your account</li>
+        </ul>
+
+        <h2>Data Retention</h2>
+        <p>
+            Certain data may be retained for legal, security, or operational purposes:
+        </p>
+        <ul>
+            <li>Server logs (retained for up to <strong>30 days</strong>)</li>
+        </ul>
+        <p>
+            After the retention period, all remaining data will be permanently deleted.
+        </p>
+
+        <h2>Processing Time</h2>
+        <p>
+            Account deletion requests are typically processed within <strong>7 business days</strong>
+            after we receive your request.
+        </p>
+
+        <h2>Important Notes</h2>
+        <p>
+            Account deletion is permanent and cannot be undone. Once deleted, your account and data
+            cannot be recovered.
+        </p>
+
+        <h2>Contact</h2>
+        <p>
+            If you have any questions regarding account deletion, please contact us at
+            <a href="mailto:marketing@gluwa.com">marketing@gluwa.com</a>.
+        </p>
     </div>
 </body>
 </html>
